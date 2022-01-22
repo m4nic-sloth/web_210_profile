@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(235, 255, 255);
+    color: rgb(255, 82, 203);
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+header h1 {
+    font-family: fantasy;
+    margin-left: 43%;
+    margin-right: 42%;
+    font-weight: bolder;
+}
+header h2 {
+    
+    padding-left: 40%;
+    text-decoration: underline;
+}
+header p {
+    padding-left: 8%;
+    font-size: xx-large;
+}
+
+
+.projects {
+    border-style: solid;
+    margin-right: 50%;
+}
+
+.projects h2 {
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+.projects p {
+    font-size: large;
+}
+
+.cycle h3 {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.work {
+    border-style: solid;
+    font-size: large;
+    margin-left: 51%;
+    margin-bottom: 1%;
+}
+
+.work h2 {
+    text-decoration: underline;
+}
+
+.school {
+    border-style: solid;
+    font-size: large;
+    margin-bottom: 1%;
+}
+
+.school h2 {
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    border-style: solid;
+    margin-right: 25%;
+    margin-left: 25%;
+    font-size: large;
+    justify-content: center;
+}
+
+img {
+    width: 70%;
+    height: 70%;
+}
